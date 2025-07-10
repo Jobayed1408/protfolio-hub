@@ -259,5 +259,52 @@ header {
 .connect-contents2 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+}
+
+form input,
+form textarea {
+    border-radius: 5px;
+    padding: 20px ;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+}
+form input {
+    
+    
+    height: 70px;
+}
+
+/* ---------------footer section---------------- */
+footer{
+    background-color: white;
+    padding: 50px 150px;
+    text-align: center;
+}
+.footer-logo{
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.footer-content{
+    padding: 100px 250px;
+}
+
+.footer-content p{
+    font-size: 16px;
+    color: #818181;
+    padding-bottom: 20px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color:#a1a1a1;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
