@@ -6,14 +6,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f9f9ff;
-    color: #333333;
+    background-color: #D5F5E3; /* soft green background */
+    color: #2C3E50; /* dark text */
 }
 
 /* common section */
 
 .primary-btn {
-    background-color: #4f46e5;
+    background-color: #2ECC71; /* primary green */
     color: white;
     padding: 18px 36px;
     border: none;
@@ -26,12 +26,12 @@ body {
 }
 
 .primary-btn:hover {
-    background-color: #333150;
+    background-color: #27AE60; /* dark green on hover */
     transform: translateY(-2px);
 }
 
 .primary-text {
-    color: #a1a1a1;
+    color: #95A5A6; /* muted gray */
 }
 
 .hero-title {
@@ -39,7 +39,6 @@ body {
     font-weight: bold;
     margin-bottom: 1rem;
 }
-
 
 /* ---------------------------------------------- */
 
@@ -58,15 +57,19 @@ header {
     padding: 0 150px;
 }
 
+.hero-nav h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #27AE60; /* dark green */
+}
+
 .hero-content {
     padding: 0 270px;
     margin: 0 auto;
     text-align: center;
-    ;
 }
 
-
-/* -------------------section-2 conten----------------------- */
+/* -------------------section-2 content----------------------- */
 .section-2 {
     display: flex;
     justify-content: space-between;
@@ -81,11 +84,13 @@ header {
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: #27AE60; /* dark green */
 }
 
 .action-content1 p {
     font-size: 24px;
     margin-bottom: 1.5rem;
+    color: #2C3E50; /* dark text */
 }
 
 .action-content2 img {
@@ -95,7 +100,7 @@ header {
 
 /* -----------section-3 content------------ */
 .section-3 {
-    background-color: rgb(211, 242, 255);
+    background-color: #A3E4D7; /* light green */
     border-radius: 20px;
     margin: 0 150px;
 }
@@ -104,7 +109,6 @@ header {
     display: block;
     margin: 0 auto;
     padding: 50px 142px;
-    /* align-items: center; */
 }
 
 .section-3-action-heading {
@@ -112,6 +116,7 @@ header {
     font-weight: bold;
     text-align: center;
     padding-bottom: 50px;
+    color: #27AE60; /* dark green */
 }
 
 .data-container {
@@ -119,27 +124,35 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 150px;
-
-
 }
 
 .section-3-data-head {
     font-size: 80px;
+    color: #2ECC71; /* primary green */
 }
 
 .description {
     text-align: center;
+    color: #2C3E50; /* dark text */
 }
 
 /* -------------testimonials section---------------------- */
+.testimonials-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #27AE60; /* dark green */
+}
+
 .testimonials-section {
     margin: 150px 150px;
-
 }
 
 .testimonials-section h2 {
     text-align: center;
     padding-bottom: 30px;
+    color: #27AE60; /* dark green */
 }
 
 .testimonial-cards {
@@ -154,11 +167,10 @@ header {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-
 }
 
 .stars {
-    color: #FFB805;
+    color: #F4D03F; /* accent yellow */
     font-size: 20px;
     padding-bottom: 24px;
 }
@@ -166,12 +178,12 @@ header {
 .testimonial-card h3 {
     font-size: 24px;
     padding-bottom: 8px;
-    color: #555;
+    color: #2C3E50; /* dark text */
 }
 
 .testimonial-card p {
     font-size: 18px;
-    color: #555;
+    color: #2C3E50; /* dark text */
 }
 
 .reviewer-info {
@@ -194,12 +206,12 @@ header {
 .reviewer-info h5 {
     padding-bottom: 6px;
     font-size: 18px;
-    color: #818181;
+    color: #95A5A6; /* muted gray */
 }
 
 .reviewer-info small {
     font-size: 14px;
-    color: #a1a1a1;
+    color: #95A5A6; /* muted gray */
 }
 
 /* ---------------focus-section----------------- */
@@ -218,14 +230,28 @@ header {
     padding-bottom: 20px;
     font-size: 50px;
     font-weight: bold;
+    color: #27AE60; /* dark green */
 }
 
 .focus-section p {
     padding-bottom: 20px;
+    color: #2C3E50; /* dark text */
 }
 
 .focus-section button {
     margin-bottom: 20px;
+    background-color: #2ECC71; /* primary green */
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 18px 36px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.focus-section button:hover {
+    background-color: #27AE60; /* dark green */
 }
 
 .focus-section img {
@@ -248,12 +274,12 @@ header {
     font-weight: bold;
     display: flex;
     align-items: center;
+    color: #27AE60; /* dark green */
 }
 
 .connect-contents2 {
     width: 50%;
     display: block;
-
 }
 
 .connect-contents2 form {
@@ -262,49 +288,64 @@ header {
     gap: 10px;
 }
 
+form label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2C3E50; /* dark text */
+}
+
 form input,
 form textarea {
     border-radius: 5px;
-    padding: 20px ;
+    padding: 20px;
     font-size: 16px;
-    border: 1px solid #dbdbdb;
+    border: 1px solid #A3E4D7; /* light green border */
+    color: #2C3E50; /* dark text */
 }
+
 form input {
-    
-    
     height: 70px;
 }
 
 /* ---------------footer section---------------- */
-footer{
+footer {
     background-color: white;
     padding: 50px 150px;
     text-align: center;
 }
-.footer-logo{
+
+.footer-logo {
     font-size: 80px;
     font-weight: bold;
     padding-bottom: 20px;
+    color: #27AE60; /* dark green */
 }
-.footer-content{
+
+.footer-content {
     padding: 100px 250px;
 }
 
-.footer-content p{
+.footer-content p {
     font-size: 16px;
-    color: #818181;
+    color: #95A5A6; /* muted gray */
     padding-bottom: 20px;
 }
-.footer-links{
+
+.footer-links {
     display: flex;
     justify-content: space-around;
 }
 
 .footer-links a {
     text-decoration: none;
-    color:#a1a1a1;
+    color: #95A5A6; /* muted gray */
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+}
+
+.footer-links a:hover {
+    background-color: #2ECC71; /* primary green */
+    color: white;
 }
