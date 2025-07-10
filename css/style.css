@@ -6,14 +6,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #D5F5E3; 
-    color: #2C3E50; 
+    background-color: #D5F5E3;
+    color: #2C3E50;
 }
 
 /* common section */
 
 .primary-btn {
-    background-color: #2ECC71; 
+    background-color: #2ECC71;
     color: white;
     padding: 18px 36px;
     border: none;
@@ -26,12 +26,12 @@ body {
 }
 
 .primary-btn:hover {
-    background-color: #27AE60; 
+    background-color: #27AE60;
     transform: translateY(-2px);
 }
 
 .primary-text {
-    color: #95A5A6; 
+    color: #95A5A6;
 }
 
 .hero-title {
@@ -60,7 +60,7 @@ header {
 .hero-nav h3 {
     font-size: 40px;
     font-weight: bold;
-    color: #27AE60; 
+    color: #27AE60;
 }
 
 .hero-content {
@@ -73,24 +73,31 @@ header {
 .section-2 {
     display: flex;
     justify-content: space-between;
-    padding: 100px 150px;
+    align-items: center; 
+    padding: 120px 150px;
 }
 
 .action-content1 {
     width: 50%;
+    
+}
+
+.action-content1 h2{
+    justify-content: center;
+    align-items: center;
 }
 
 .section-2-heading {
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #27AE60; 
+    color: #27AE60;
 }
 
 .action-content1 p {
     font-size: 24px;
     margin-bottom: 1.5rem;
-    color: #2C3E50; 
+    color: #2C3E50;
 }
 
 .action-content2 img {
@@ -100,7 +107,7 @@ header {
 
 /* -----------section-3 content------------ */
 .section-3 {
-    background-color: #A3E4D7; 
+    background-color: #A3E4D7;
     border-radius: 20px;
     margin: 0 150px;
 }
@@ -116,7 +123,7 @@ header {
     font-weight: bold;
     text-align: center;
     padding-bottom: 50px;
-    color: #27AE60; 
+    color: #27AE60;
 }
 
 .data-container {
@@ -133,7 +140,7 @@ header {
 
 .description {
     text-align: center;
-    color: #2C3E50; 
+    color: #2C3E50;
 }
 
 /* -------------testimonials section---------------------- */
@@ -142,7 +149,7 @@ header {
     font-weight: bold;
     text-align: center;
     padding-bottom: 30px;
-    color: #27AE60; 
+    color: #27AE60;
 }
 
 .testimonials-section {
@@ -152,7 +159,7 @@ header {
 .testimonials-section h2 {
     text-align: center;
     padding-bottom: 30px;
-    color: #27AE60; 
+    color: #27AE60;
 }
 
 .testimonial-cards {
@@ -170,7 +177,7 @@ header {
 }
 
 .stars {
-    color: #F4D03F; 
+    color: #F4D03F;
     font-size: 20px;
     padding-bottom: 24px;
 }
@@ -178,12 +185,12 @@ header {
 .testimonial-card h3 {
     font-size: 24px;
     padding-bottom: 8px;
-    color: #2C3E50; 
+    color: #2C3E50;
 }
 
 .testimonial-card p {
     font-size: 18px;
-    color: #2C3E50; 
+    color: #2C3E50;
 }
 
 .reviewer-info {
@@ -206,18 +213,18 @@ header {
 .reviewer-info h5 {
     padding-bottom: 6px;
     font-size: 18px;
-    color: #95A5A6; 
+    color: #95A5A6;
 }
 
 .reviewer-info small {
     font-size: 14px;
-    color: #95A5A6; 
+    color: #95A5A6;
 }
 
 /* ---------------focus-section----------------- */
 .focus-section {
     background-color: white;
-    margin: 150px 150px;
+    margin: 100px 150px;
     border-radius: 20px;
 }
 
@@ -230,17 +237,17 @@ header {
     padding-bottom: 20px;
     font-size: 50px;
     font-weight: bold;
-    color: #27AE60; 
+    color: #27AE60;
 }
 
 .focus-section p {
     padding-bottom: 20px;
-    color: #2C3E50; 
+    color: #2C3E50;
 }
 
 .focus-section button {
     margin-bottom: 20px;
-    background-color: #2ECC71; 
+    background-color: #2ECC71;
     color: white;
     border: none;
     border-radius: 12px;
@@ -274,7 +281,7 @@ header {
     font-weight: bold;
     display: flex;
     align-items: center;
-    color: #27AE60; 
+    color: #27AE60;
 }
 
 .connect-contents2 {
@@ -291,7 +298,7 @@ header {
 form label {
     font-size: 16px;
     font-weight: 600;
-    color: #2C3E50; 
+    color: #2C3E50;
 }
 
 form input,
@@ -299,8 +306,8 @@ form textarea {
     border-radius: 5px;
     padding: 20px;
     font-size: 16px;
-    border: 1px solid #A3E4D7; 
-    color: #2C3E50; 
+    border: 1px solid #A3E4D7;
+    color: #2C3E50;
 }
 
 form input {
@@ -310,7 +317,7 @@ form input {
 /* ---------------footer section---------------- */
 footer {
     background-color: white;
-    padding: 50px 150px;
+    padding: 50px 100px;
     text-align: center;
 }
 
@@ -318,11 +325,11 @@ footer {
     font-size: 80px;
     font-weight: bold;
     padding-bottom: 20px;
-    color: #27AE60; 
+    color: #27AE60;
 }
 
 .footer-content {
-    padding: 100px 250px;
+    padding: 70px 250px;
 }
 
 .footer-content p {
@@ -338,7 +345,7 @@ footer {
 
 .footer-links a {
     text-decoration: none;
-    color: #95A5A6; 
+    color: #95A5A6;
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -346,6 +353,6 @@ footer {
 }
 
 .footer-links a:hover {
-    background-color: #2ECC71; 
+    background-color: #2ECC71;
     color: white;
 }
